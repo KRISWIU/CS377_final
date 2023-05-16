@@ -3,7 +3,7 @@
 #include <iostream>
 
 void testAddClass() {
-    Student s("Test Student", "MATH", 15);
+    Student s("Student1", "MATH", 15);
     Class c("MATH101", 50, false);
 
     if (!s.addClass(&c)) {
@@ -12,7 +12,7 @@ void testAddClass() {
 }
 
 void testDropClass() {
-    Student s("Test Student", "MATH", 15);
+    Student s("Student1", "MATH", 15);
     Class c("MATH101", 50, false);
 
     s.addClass(&c);
@@ -25,7 +25,7 @@ void testDropClass() {
 }
 
 void testSwitchClass() {
-    Student s("Test Student", "MATH", 15);
+    Student s("Student1", "MATH", 15);
     Class c1("MATH101", 50, false);
     Class c2("MATH102", 50, false);
 
@@ -57,6 +57,5 @@ int main() {
     testDropClass();
     testSwitchClass();
     testClassCapacity();
-
     return 0;
 }
