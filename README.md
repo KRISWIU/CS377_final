@@ -6,8 +6,8 @@ This project provides a representation of students and classes in a university s
 
 **Attributes**
 
-* std::string name: The name of the student.
-* std::string major: The major of the student.
+* string name: The name of the student.
+* string major: The major of the student.
 * int maxCredits: The maximum number of credits the student can take.
 * int currentCredits: The current number of credits the student is enrolled in.
 * std::vector<Class*> classes: The list of classes the student is currently enrolled in.
@@ -27,8 +27,8 @@ This project provides a representation of students and classes in a university s
 
 **Attributes**
 
-* std::string name: The name of the class.
-* std::string major: The major associated with the class.
+* string name: The name of the class.
+* string major: The major associated with the class.
 * int difficulty: The difficulty level of the class.
 * int credit: The credit value of the class.
 * vector<Student*> students: The list of students currently enrolled in the class.
